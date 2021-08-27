@@ -1,6 +1,6 @@
 'use strict'
 
-// the message Hello world! in 10 different languages.
+// The message Hello world! in 10 different languages.
 
 console.log("Hello, World!") // English
 console.log("سلام، دنیا!") // Persian
