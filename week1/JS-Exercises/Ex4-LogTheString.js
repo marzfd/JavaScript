@@ -2,7 +2,7 @@
 
 let myString = "This is Marzieh Fadaee.";
 
-console.log("The value of myString is 'string':");
+console.log("The value of myString is:");
 console.log(myString);
 
 myString = "Coding !"
