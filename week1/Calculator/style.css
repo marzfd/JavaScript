@@ -31,7 +31,7 @@ h1 {
   text-align: center;
   cursor: pointer;
   font-size: 32px;
-  padding-top: 15px;
+  padding-top: 20px;
 }
 
 .btn:hover {
@@ -69,8 +69,4 @@ h1 {
 
 #equals {
   border-radius: 0 0 7px 0;
-}
-
-#decimal {
-  padding-top: 35px;
 }
