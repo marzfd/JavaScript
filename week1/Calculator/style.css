@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.row {
+  display: table;
+  table-layout: fixed;
+  width: 400px;
+}
+
+#calc-parent {
+  margin-left: calc(50% - 200px);
+}
+
+.column {
+  display: table-cell;
+}
+
+.btn {
+  background-color: #fff7ae;
+  border: 1px solid #297f87;
+  width: 25px;
+  height: 60px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 32px;
+  padding-top: 15px;
+}
+
+.btn:hover {
+  background-color: #df2e2e9d;
+}
+
+.operator {
+  background-color: #f6d167;
+  color: white;
+}
+
+#display {
+  height: 80px;
+  color: white;
+  text-align: right;
+  border-left: 1px solid #297f87;
+  border-right: 1px solid #297f87;
+  border-top: 1px solid #297f87;
+  font-size: 48px;
+  background-color: #297f87;
+  overflow: hidden;
+  padding: 15px;
+  white-space: nowrap;
+  border-radius: 7px 7px 0 0;
+}
+
+#zero {
+  width: 52px;
+  border-radius: 0 0 0 7px;
+}
+
+#clear {
+  width: 52px;
+}
+
+#equals {
+  border-radius: 0 0 7px 0;
+}
+
+#decimal {
+  padding-top: 35px;
+}
