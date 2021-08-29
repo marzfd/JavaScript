@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #e7e7e7;
+  background-color: #e9b1b150;
 
   /* not selectable feature */
   -webkit-user-select: none; /* Safari */
