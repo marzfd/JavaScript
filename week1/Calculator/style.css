@@ -2,11 +2,18 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #e7e7e7;
+
+  /* not selectable feature */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
 
 h1 {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .row {
@@ -44,7 +51,7 @@ h1 {
 }
 
 #display {
-  height: 80px;
+  height: 65px;
   color: white;
   text-align: right;
   border-left: 1px solid #297f87;
