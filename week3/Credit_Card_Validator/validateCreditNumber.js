@@ -5,15 +5,13 @@ function validateCreditNumber(str) {
    // Are all input numbers the same ??
    function isNotSameNumber(s) {
     for (let i = 0; i < (s.length); i++) {
-      if (s.charAt(i) !== s.charAt(i + 1)) {
+      if (s.charAt(i) !== s.charAt(0)) {
         return true;
-      } else {
-        return false;
       };
     };
+    return false;
   };
-  
-  
+
   // Add the numbers in the input to get the sum !!
   let sum = 0;
   for (let i = 0; i < str.length; i++) {
@@ -49,4 +47,4 @@ validateCreditNumber('4444444444444444');
 validateCreditNumber('6666666666666661');
 validateCreditNumber('1111111111111110');
 validateCreditNumber('9799799788880000');
-validateCreditNumber('6166666665666666');
+validateCreditNumber('6666666665666666');
