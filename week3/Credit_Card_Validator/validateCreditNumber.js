@@ -1,24 +1,25 @@
 'use strict';
 
-const validateCreditNumber = function(str) {
+function validateCreditNumber(str) {
 
- // Are all input numbers the same ??
-  const isSameNumber = function(s) {
+   // Are all input numbers the same ??
+   function isNotSameNumber(s) {
     for (let i = 0; i < (s.length); i++) {
-      if (s.charAt(i) === s.charAt(i + 1)) {
+      if (s.charAt(i) !== s.charAt(i + 1)) {
         return true;
       } else {
-        return false
-      }
+        return false;
+      };
     };
-    return true
   };
-
+  
+  
   // Add the numbers in the input to get the sum !!
   let sum = 0;
   for (let i = 0; i < str.length; i++) {
     sum = sum + parseFloat(str.charAt(i));
   };
+
 
   // Validation of Credit Card Numbers :
   if (str.length !== 16) {
@@ -32,19 +33,20 @@ const validateCreditNumber = function(str) {
 
   } else if (sum < 16) {
     console.log(`"Invalid! The sum of all numbers in input ${str} should be equal to or greater than 16!"`);
-  
-  } else if (isSameNumber(str)) {
+
+  } else if (!isNotSameNumber(str)) {
     console.log(`"Invalid! The input ${str} should contain at least 2 different types of numbers!"`);
 
-  } else {
+  } else if (isNotSameNumber(str)){
     console.log(`"Success! The input ${str} is a valid credit card number!"`);
   };
 };
+
 
 validateCreditNumber('92332119011112');
 validateCreditNumber('a92332119c011112');
 validateCreditNumber('4444444444444444');
 validateCreditNumber('6666666666666661');
 validateCreditNumber('1111111111111110');
-validateCreditNumber('7999977788880000');
-validateCreditNumber('1666666666666666');
+validateCreditNumber('9799799788880000');
+validateCreditNumber('6166666665666666');
