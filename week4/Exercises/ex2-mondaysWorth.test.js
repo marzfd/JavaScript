@@ -17,7 +17,7 @@ const mondayTasks = [
   },
 ];
 
-const hourlyRate = 25;
+const hourlyRate = 25; // specified in €
 
 function computeEarnings(tasks, rate) {
   
@@ -29,7 +29,7 @@ function computeEarnings(tasks, rate) {
   }
 
 
-// jest test
+// test (using Jest)
 describe('computeEarnings', () => {
   test('should take two parameters', () => {
     // The `.length` property indicates the number of parameters expected by
