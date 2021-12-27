@@ -6,4 +6,4 @@
 
 <br/>
 
-This repository contains all homework assignments for the JavaScript Module.
+This repository contains all homework assignments for the [JavaScript Module](https://github.com/HackYourFuture/JavaScript/).
