@@ -12,6 +12,7 @@ This repository contains all homework assignments for the [JavaScript Module](ht
 
 ## Homework Projects
 * [Meditation App](https://marzfd.github.io/JavaScript/week3/Meditation-App/index.html)
+* [Issue Tracker App](https://github.com/marzfd/Issue-Tracker) (Code-along: CodingTheSmartWay.com)
 * [Temperature Converter](https://marzfd.github.io/JavaScript/week2/Temperature-Converter/index.html)
 * [Weight Converter](https://marzfd.github.io/JavaScript/week2/Weight-Converter/index.html)
 * [Calculator](https://marzfd.github.io/JavaScript/week1/Calculator/index.html)
