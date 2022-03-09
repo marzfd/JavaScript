@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100;300;400&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #383746;
+
+  /* not selectable feature */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+h1 {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.converter-parent div {
+  height: 25vh;
+  width: 700px;
+}
+
+.converter-parent {
+  margin-left: calc(50% - 350px);
+}
+
+#celsius,
+#kelvin {
+  border: 3px solid #e8f79a;
+}
+
+#fahrenheit {
+  border-right: 3px solid #e8f79a;
+  border-left: 3px solid #e8f79a;
+}
+
+input[type='number'] {
+  width: 100%;
+  height: 100%;
+  font-family: 'Azeret Mono', monospace, sans-serif;
+  background-color: #49d292;
+  color: #383746;
+  border: 0;
+  font-size: 50px;
+  text-align: center;
+  outline: none;
+}
+
+::-webkit-input-placeholder,
+::-moz-placeholder,
+::-ms-input-placeholder {
+  color: #3b445b50;
+}
+
+footer {
+  padding-top: 20px;
+  color: white;
+  text-align: center;
+}
