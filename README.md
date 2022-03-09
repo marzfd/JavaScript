@@ -11,13 +11,15 @@ This repository contains all homework assignments for the [JavaScript Module](ht
 <br/>
 
 ## Homework Projects
-* [Temperature Converter](https://marzfd.github.io/Temperature-Converter/index.html)
-* [Weight Converter](https://marzfd.github.io/Weight-Converter/index.html)
+* [Temperature Converter](https://marzfd.github.io/JavaScript/week2/Temperature-Converter/index.html)
+* [Weight Converter](https://marzfd.github.io/JavaScript/week2/Weight-Converter/index.html)
 * [Calculator](https://marzfd.github.io/JavaScript/week1/Calculator/index.html)
 
 ### JS Exercises
 * [Week 1](https://github.com/marzfd/JavaScript/tree/main/week1/JS-Exercises)
 * [Week 2](https://github.com/marzfd/JavaScript/tree/main/week2/JS-Exercises)
+* [Week 2 - Grade Calculator](https://github.com/marzfd/JavaScript/blob/main/week2/Grade-calculator/GradeCalculator.js)
 * [Week 3](https://github.com/marzfd/JavaScript/tree/main/week3/JS-Exercises)
+* [Week 3 - Credit Card Validator](https://github.com/marzfd/JavaScript/tree/main/week3/Credit_Card_Validator/validateCreditNumber.js)
 * [Week 4](https://github.com/marzfd/JavaScript/tree/main/week4/Exercises)
 * [Week 4 - Challenges](https://github.com/marzfd/JavaScript/tree/main/week4/Challenges)
